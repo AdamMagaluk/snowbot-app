@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+            
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/pull-go-refresh.css" />
+
+        <title>Epic Stats</title>
+    </head>
+    <body>
+
+ <div class="container">
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="homeBtn" class="navbar-brand" href="#main">Epic Stats</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown"> <a id="aboutBtn" href="#about" >About</a> </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+
+    <ul class="nav nav-tabs" id="myTab" style="display:none">
+      <li class="active"><a href="#loading" data-toggle="tab">Home</a></li>
+      <li><a href="#error-loading" data-toggle="tab">Profile</a></li>
+      <li><a href="#main" data-toggle="tab">Messages</a></li>
+      <li><a href="#aboutpage" data-toggle="tab">About</a></li>
+    </ul>
+
+      <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane active" id="loading">Loading...</div>
+      <div class="tab-pane" id="error-loading">Problem Connecting to Remote Servers</div>
+      <div class="tab-pane" id="main">
+        <div class="scrollable">
+            <div class="wrap">
+                <div id="resort-list" class="list-group">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="aboutpage">About</div>
+    </div>
+
+    </div> <!-- /container -->
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.plugin.pullToRefresh.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
