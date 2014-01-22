@@ -1,20 +1,260 @@
-2014-01-19 18:19:31.359 EpicStats[17222:80b] Multi-tasking -> Device: YES, App: YES
-2014-01-19 18:19:31.367 EpicStats[17222:80b] Unlimited access to network resources
-2014-01-19 18:19:31.501 EpicStats[17222:80b] Resetting plugins due to page load.
-2014-01-19 18:19:31.583 EpicStats[17222:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/925BC9EE-9021-4A58-9D03-7157F04FFB8E/EpicStats.app/www/index.html
-2014-01-19 18:21:38.048 EpicStats[18107:80b] Multi-tasking -> Device: YES, App: YES
-2014-01-19 18:21:38.055 EpicStats[18107:80b] Unlimited access to network resources
-2014-01-19 18:21:38.149 EpicStats[18107:80b] Resetting plugins due to page load.
-2014-01-19 18:21:38.245 EpicStats[18107:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/925BC9EE-9021-4A58-9D03-7157F04FFB8E/EpicStats.app/www/index.html
-2014-01-19 18:22:33.169 EpicStats[19018:80b] Multi-tasking -> Device: YES, App: YES
-2014-01-19 18:22:33.175 EpicStats[19018:80b] Unlimited access to network resources
-2014-01-19 18:22:33.293 EpicStats[19018:80b] Resetting plugins due to page load.
-2014-01-19 18:22:33.356 EpicStats[19018:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/925BC9EE-9021-4A58-9D03-7157F04FFB8E/EpicStats.app/www/index.html
-2014-01-19 18:56:03.030 EpicStats[19992:80b] Multi-tasking -> Device: YES, App: YES
-2014-01-19 18:56:03.038 EpicStats[19992:80b] Unlimited access to network resources
-2014-01-19 18:56:03.133 EpicStats[19992:80b] Resetting plugins due to page load.
-2014-01-19 18:56:03.212 EpicStats[19992:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/925BC9EE-9021-4A58-9D03-7157F04FFB8E/EpicStats.app/www/index.html
-2014-01-19 20:12:51.467 EpicStats[23108:80b] Multi-tasking -> Device: YES, App: YES
-2014-01-19 20:12:51.475 EpicStats[23108:80b] Unlimited access to network resources
-2014-01-19 20:12:51.571 EpicStats[23108:80b] Resetting plugins due to page load.
-2014-01-19 20:12:51.666 EpicStats[23108:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/925BC9EE-9021-4A58-9D03-7157F04FFB8E/EpicStats.app/www/index.html
+2014-01-21 20:55:00.687 Snowbot[96613:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 20:55:00.692 Snowbot[96613:80b] Unlimited access to network resources
+2014-01-21 20:55:00.695 Snowbot[96613:80b] Fix applied for database locations?: YES
+2014-01-21 20:55:00.709 Snowbot[96613:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 20:55:00.709 Snowbot[96613:80b] [CDVTimer][statusbar] 0.407994ms
+2014-01-21 20:55:00.710 Snowbot[96613:80b] [CDVTimer][TotalPluginStartup] 0.738025ms
+2014-01-21 20:55:00.794 Snowbot[96613:80b] Resetting plugins due to page load.
+2014-01-21 20:55:00.946 Snowbot[96613:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 20:55:00.946 Snowbot[96613:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:55:00.946 Snowbot[96613:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 20:55:00.947 Snowbot[96613:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 20:55:00.947 Snowbot[96613:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:55:00.947 Snowbot[96613:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device970688654",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 20:55:00.950 Snowbot[96613:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 20:55:35.679 Snowbot[97614:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 20:55:35.687 Snowbot[97614:80b] Unlimited access to network resources
+2014-01-21 20:55:35.703 Snowbot[97614:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 20:55:35.704 Snowbot[97614:80b] [CDVTimer][statusbar] 0.337005ms
+2014-01-21 20:55:35.704 Snowbot[97614:80b] [CDVTimer][TotalPluginStartup] 0.608027ms
+2014-01-21 20:55:35.772 Snowbot[97614:80b] Resetting plugins due to page load.
+2014-01-21 20:55:35.920 Snowbot[97614:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 20:55:35.921 Snowbot[97614:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:55:35.921 Snowbot[97614:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 20:55:35.921 Snowbot[97614:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 20:55:35.921 Snowbot[97614:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:55:35.922 Snowbot[97614:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device25913083",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 20:55:35.925 Snowbot[97614:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 20:57:23.512 Snowbot[99643:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 20:57:23.517 Snowbot[99643:80b] Unlimited access to network resources
+2014-01-21 20:57:23.534 Snowbot[99643:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 20:57:23.534 Snowbot[99643:80b] [CDVTimer][statusbar] 0.425041ms
+2014-01-21 20:57:23.534 Snowbot[99643:80b] [CDVTimer][TotalPluginStartup] 0.771999ms
+2014-01-21 20:57:23.605 Snowbot[99643:80b] Resetting plugins due to page load.
+2014-01-21 20:57:23.765 Snowbot[99643:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 20:57:23.765 Snowbot[99643:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:57:23.765 Snowbot[99643:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 20:57:23.765 Snowbot[99643:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 20:57:23.765 Snowbot[99643:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:57:23.765 Snowbot[99643:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device480000831",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 20:57:23.768 Snowbot[99643:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 20:57:46.828 Snowbot[821:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 20:57:46.833 Snowbot[821:80b] Unlimited access to network resources
+2014-01-21 20:57:46.849 Snowbot[821:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 20:57:46.849 Snowbot[821:80b] [CDVTimer][statusbar] 0.449002ms
+2014-01-21 20:57:46.850 Snowbot[821:80b] [CDVTimer][TotalPluginStartup] 0.824034ms
+2014-01-21 20:57:46.927 Snowbot[821:80b] Resetting plugins due to page load.
+2014-01-21 20:57:47.083 Snowbot[821:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 20:57:47.083 Snowbot[821:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:57:47.084 Snowbot[821:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 20:57:47.084 Snowbot[821:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 20:57:47.084 Snowbot[821:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:57:47.084 Snowbot[821:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device961383811",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 20:57:47.087 Snowbot[821:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 20:58:07.971 Snowbot[1846:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 20:58:07.976 Snowbot[1846:80b] Unlimited access to network resources
+2014-01-21 20:58:07.992 Snowbot[1846:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 20:58:07.992 Snowbot[1846:80b] [CDVTimer][statusbar] 0.371993ms
+2014-01-21 20:58:07.992 Snowbot[1846:80b] [CDVTimer][TotalPluginStartup] 0.703990ms
+2014-01-21 20:58:08.074 Snowbot[1846:80b] Resetting plugins due to page load.
+2014-01-21 20:58:08.217 Snowbot[1846:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 20:58:08.218 Snowbot[1846:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:58:08.218 Snowbot[1846:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 20:58:08.218 Snowbot[1846:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 20:58:08.218 Snowbot[1846:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:58:08.218 Snowbot[1846:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device219632026",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 20:58:08.221 Snowbot[1846:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 20:58:34.096 Snowbot[2862:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 20:58:34.104 Snowbot[2862:80b] Unlimited access to network resources
+2014-01-21 20:58:34.121 Snowbot[2862:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 20:58:34.121 Snowbot[2862:80b] [CDVTimer][statusbar] 0.430048ms
+2014-01-21 20:58:34.122 Snowbot[2862:80b] [CDVTimer][TotalPluginStartup] 0.820041ms
+2014-01-21 20:58:34.221 Snowbot[2862:80b] Resetting plugins due to page load.
+2014-01-21 20:58:34.396 Snowbot[2862:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 20:58:34.397 Snowbot[2862:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:58:34.397 Snowbot[2862:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 20:58:34.397 Snowbot[2862:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 20:58:34.397 Snowbot[2862:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 20:58:34.398 Snowbot[2862:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device80534537",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 20:58:34.401 Snowbot[2862:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 21:00:22.722 Snowbot[4365:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 21:00:22.730 Snowbot[4365:80b] Unlimited access to network resources
+2014-01-21 21:00:22.746 Snowbot[4365:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 21:00:22.746 Snowbot[4365:80b] [CDVTimer][statusbar] 0.386000ms
+2014-01-21 21:00:22.747 Snowbot[4365:80b] [CDVTimer][TotalPluginStartup] 0.724018ms
+2014-01-21 21:00:22.825 Snowbot[4365:80b] Resetting plugins due to page load.
+2014-01-21 21:00:22.979 Snowbot[4365:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 21:00:22.979 Snowbot[4365:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 21:00:22.980 Snowbot[4365:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 21:00:22.980 Snowbot[4365:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 21:00:22.980 Snowbot[4365:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 21:00:22.980 Snowbot[4365:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device1415292593",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 21:00:22.983 Snowbot[4365:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 21:00:58.885 Snowbot[5386:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 21:00:58.890 Snowbot[5386:80b] Unlimited access to network resources
+2014-01-21 21:00:58.903 Snowbot[5386:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 21:00:58.904 Snowbot[5386:80b] [CDVTimer][statusbar] 0.406981ms
+2014-01-21 21:00:58.904 Snowbot[5386:80b] [CDVTimer][TotalPluginStartup] 0.749946ms
+2014-01-21 21:00:58.966 Snowbot[5386:80b] Resetting plugins due to page load.
+2014-01-21 21:00:59.131 Snowbot[5386:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 21:00:59.131 Snowbot[5386:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 21:00:59.131 Snowbot[5386:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 21:00:59.131 Snowbot[5386:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 21:00:59.132 Snowbot[5386:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 21:00:59.132 Snowbot[5386:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device1120672533",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 21:00:59.135 Snowbot[5386:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 21:01:24.459 Snowbot[6380:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 21:01:24.467 Snowbot[6380:80b] Unlimited access to network resources
+2014-01-21 21:01:24.483 Snowbot[6380:80b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-01-21 21:01:24.483 Snowbot[6380:80b] [CDVTimer][statusbar] 0.390053ms
+2014-01-21 21:01:24.483 Snowbot[6380:80b] [CDVTimer][TotalPluginStartup] 0.698984ms
+2014-01-21 21:01:24.547 Snowbot[6380:80b] Resetting plugins due to page load.
+2014-01-21 21:01:24.703 Snowbot[6380:80b] CDVPlugin class CDVStatusBar (pluginName: StatusBar) does not exist.
+2014-01-21 21:01:24.704 Snowbot[6380:80b] ERROR: Plugin 'StatusBar' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 21:01:24.704 Snowbot[6380:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "INVALID",
+  "StatusBar",
+  "_ready",
+  [
+
+  ]
+]
+2014-01-21 21:01:24.704 Snowbot[6380:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 21:01:24.705 Snowbot[6380:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 21:01:24.705 Snowbot[6380:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device902142118",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 21:01:24.708 Snowbot[6380:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html
+2014-01-21 21:03:35.435 Snowbot[9291:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-21 21:03:35.440 Snowbot[9291:80b] Unlimited access to network resources
+2014-01-21 21:03:35.460 Snowbot[9291:80b] [CDVTimer][statusbar] 5.627036ms
+2014-01-21 21:03:35.460 Snowbot[9291:80b] [CDVTimer][TotalPluginStartup] 5.964994ms
+2014-01-21 21:03:35.556 Snowbot[9291:80b] Resetting plugins due to page load.
+2014-01-21 21:03:35.704 Snowbot[9291:80b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-01-21 21:03:35.705 Snowbot[9291:80b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-01-21 21:03:35.705 Snowbot[9291:80b] -[CDVCommandQueue executePending] [Line 127] FAILED pluginJSON = [
+  "Device588679787",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-01-21 21:03:35.708 Snowbot[9291:80b] Finished load of: file:///Users/ApigeeCorporation/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8ECFDFCF-CF3F-4FEF-B4CA-5F9E9B0CF1FE/Snowbot.app/www/index.html

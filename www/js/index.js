@@ -1,3 +1,6 @@
+var listTemplate = null;
+var $targetList = null;
+
 function getStats(callback){
   var request = $.ajax({
     url: 'http://epicstats.herokuapp.com/stats/all',
@@ -39,54 +42,29 @@ month[9]="October";
 month[10]="November";
 month[11]="December";
 
-
-
-function setPage(page){
-  //$(".page").hide();
-  //console.log('setting page ' + page)
-  $('#myTab a[href="#'+page+'"]').tab('show')
-}
-
 function formatDate(d){
   d = new Date(d);
   return days[d.getDay()] + ' ' + month[d.getMonth()] + ' ' + d.getDate();
 }
 
-function drawUI(data){
 
-  $("#resort-list").empty();
-
-  data.forEach(function(r){
-
-  var per = Math.round(r.busyIndex*100);
-  
-  var html = '<div class="list-group-item">';
-  html += '<div class="row">';
-    html += '<div class="col-xs-7"><h4>'+r.mountain+'</h4><p><b>Busiest Day</b><br>'+formatDate(r.max.lDate)+' ('+r.max.value+')</p></div>';
-    html += '<div class="col-xs-5">';
-        html += '<div class="progress">';
-            html += '<div class="progress-bar progress-bar-'+percentToColor(per)+'" role="progressbar" aria-valuenow="'+per+'" aria-valuemin="0" aria-valuemax="100" style="width: '+per+'%">';
-            html += '</div>';
-        html += '</div>';
-        html += '<p><b>Lifts/Minute</b><br>'+r.mean+'</p>';
-    html += '</div></div></div>';
-
-    $("#resort-list").append(html);
-  });
-
-  setPage('main');
+function cleanupData(r){
+  r.max.lDate = formatDate(r.max.lDate);
+  r.per = Math.round(r.busyIndex*100);
+  r.indicatorColor = percentToColor(r.per);
+  if(r.mean < 0)
+    r.mean = 0;
+  return r;
 }
 
 var tries = 0;
 
 function loadData(){
   if(tries >= 2){
-    setPage('error-loading');
+    alert('Giving up...')
     return;
   }
   
-  setPage('loading');
-
   tries++;
   getStats(function(err,results){
     if(err){
@@ -94,21 +72,51 @@ function loadData(){
       return loadData();
     }
     tries = 0;
-    drawUI(results);
+
+    $targetList.empty();
+
+    results = results.map(cleanupData);
+
+    results.forEach(function(r){
+      $targetList.append(listTemplate(r));
+    });
+
+    $targetList.listview("refresh");
+    $('#content').scrollz('hidePullHeader');
+    
+    //draw ui
   });
 }
 
+function onDeviceReady() {
+  
+
+
+
+}
+  
+document.addEventListener('deviceready', onDeviceReady, false);
+
 $(document).ready(function(){
 
-  $("#homeBtn").click(function(){
-    loadData();
-    return false;
-  });
+  if(navigator.userAgent.match(/iPhone OS 7/)) {
+    $("body").addClass("ios7");
+    
+    //document.write('<style type="text/css">body{-webkit-transform: translate3d(0,20px,0)}</style>');
+  }
 
-  $("#aboutBtn").click(function(){
-    setPage('aboutpage');
-    return false;
-  });
 
+
+  listTemplate = Handlebars.compile($("#list-template").html());
+
+  $targetList = $('#items');
+
+  // Load initial items
   loadData();
+    
+  $(document).on('pulled', '#content', function() {
+    // Reload
+    loadData();
+  });
+
 });
